@@ -1,6 +1,6 @@
 ---
 name: model-selection
-description: Use before delegating work to a subagent, or when a task is large, repetitive or exploratory, to pick the cheapest model that can still do it well (haiku, sonnet, opus, fable). Use when the user says "Token sparen", "welches Modell", "model routing", or "is this worth a bigger model". Not for choosing a model inside an application you are building (use engineering/llm-cost-optimizer).
+description: Picks the cheapest model (haiku, sonnet, opus, fable) that can still do a task well, to save tokens. Make sure to use this skill before every Agent/subagent delegation, and whenever a task is large, repetitive, exploratory or spans many files, even if the user never mentions models. Also use when the user says "Token sparen", "welches Modell", "Modell wählen", "model routing" or asks whether a task is worth a bigger model. Not for choosing a model inside an application you are building (use engineering/llm-cost-optimizer).
 ---
 
 # Model Selection
